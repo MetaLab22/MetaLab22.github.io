@@ -49,6 +49,13 @@ header{
 	border: none;
 	padding: 18px 58px;
 	margin-top: 32px;
+	-webkit-transition: 0.4s;
+	-o-transition: 0.4s;
+	transition: 0.4s;
+}
+
+.header-button:hover {
+	box-shadow: none;
 }
 
 header small {
@@ -188,6 +195,14 @@ footer {
 	color: #fff;
 	font-size: 18px;
 	padding: 15px 40px;
+	-webkit-transition: 0.69s;
+	-o-transition: 0.69s;
+	transition: 0.69s;
+}
+
+.footer-button:hover {
+	background-color: #fff;
+	color: #3a7dfd;
 }
 
 @media (max-width: 1200px) {
